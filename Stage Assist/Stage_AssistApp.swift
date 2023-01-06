@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct Stage_AssistApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra(LocalizedStringKey(stringLiteral: "Stage Assist"), systemImage: "window.casement") {
+            MenuBar()
         }
     }
 }
