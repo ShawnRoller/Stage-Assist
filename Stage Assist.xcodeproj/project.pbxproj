@@ -14,9 +14,6 @@
 		29B0FA5429684D7100DE0AC1 /* Stage_AssistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B0FA5329684D7100DE0AC1 /* Stage_AssistTests.swift */; };
 		29B0FA5E29684D7100DE0AC1 /* Stage_AssistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B0FA5D29684D7100DE0AC1 /* Stage_AssistUITests.swift */; };
 		29B0FA6029684D7100DE0AC1 /* Stage_AssistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B0FA5F29684D7100DE0AC1 /* Stage_AssistUITestsLaunchTests.swift */; };
-		29B0FA6E29684EF800DE0AC1 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B0FA6D29684EF800DE0AC1 /* MenuBar.swift */; };
-		29B0FA6F29684EF800DE0AC1 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B0FA6D29684EF800DE0AC1 /* MenuBar.swift */; };
-		29B0FA7029684EF800DE0AC1 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B0FA6D29684EF800DE0AC1 /* MenuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +45,6 @@
 		29B0FA5929684D7100DE0AC1 /* Stage AssistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stage AssistUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B0FA5D29684D7100DE0AC1 /* Stage_AssistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage_AssistUITests.swift; sourceTree = "<group>"; };
 		29B0FA5F29684D7100DE0AC1 /* Stage_AssistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage_AssistUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		29B0FA6D29684EF800DE0AC1 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +95,6 @@
 		29B0FA4029684D6F00DE0AC1 /* Stage Assist */ = {
 			isa = PBXGroup;
 			children = (
-				29B0FA6C29684D8900DE0AC1 /* Menu */,
 				29B0FA4129684D6F00DE0AC1 /* Stage_AssistApp.swift */,
 				29B0FA4329684D6F00DE0AC1 /* ContentView.swift */,
 				29B0FA4529684D7000DE0AC1 /* Assets.xcassets */,
@@ -132,14 +127,6 @@
 				29B0FA5F29684D7100DE0AC1 /* Stage_AssistUITestsLaunchTests.swift */,
 			);
 			path = "Stage AssistUITests";
-			sourceTree = "<group>";
-		};
-		29B0FA6C29684D8900DE0AC1 /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-				29B0FA6D29684EF800DE0AC1 /* MenuBar.swift */,
-			);
-			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +261,6 @@
 			files = (
 				29B0FA4429684D6F00DE0AC1 /* ContentView.swift in Sources */,
 				29B0FA4229684D6F00DE0AC1 /* Stage_AssistApp.swift in Sources */,
-				29B0FA6E29684EF800DE0AC1 /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29B0FA6F29684EF800DE0AC1 /* MenuBar.swift in Sources */,
 				29B0FA5429684D7100DE0AC1 /* Stage_AssistTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +278,6 @@
 			files = (
 				29B0FA6029684D7100DE0AC1 /* Stage_AssistUITestsLaunchTests.swift in Sources */,
 				29B0FA5E29684D7100DE0AC1 /* Stage_AssistUITests.swift in Sources */,
-				29B0FA7029684EF800DE0AC1 /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
